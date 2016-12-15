@@ -10,7 +10,7 @@ import thereisnospon.acclient.utils.AcClientActivityStack;
 /**
  * Created by yzr on 16/6/5.
  */
-public class AppApplication extends Application {
+public final class AppApplication extends Application {
     public final static Gson gson = new Gson();
     public static AppApplication  context;
     public AcClientActivityStack activityStack = new AcClientActivityStack();
@@ -19,7 +19,7 @@ public class AppApplication extends Application {
     public void onCreate() {
         super.onCreate();
         context= this;
-        CrashReport.initCrashReport(getApplicationContext(), "7ed01ab9f2", false);
+        CrashReport.initCrashReport(getApplicationContext(), getString(R.string.crash_report_id), false);
         registerActivityLifecycleCallbacks(activityStack);
     }
 

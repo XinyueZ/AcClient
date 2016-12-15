@@ -73,4 +73,12 @@
     <string name="settings_exit_info">退出提醒</string>
     <string name="settings_about">关于</string>
     <string name="settings_software_licenses">开放软件证书</string>
+
+    <string name="rationale_permissions">本应用会访问您的外部存储以用来保存一些文件或图片及相关信息。</string>
+    <string name="rationale_phone_state">本应用需要访问设备的状态信息。</string>
+
+    <string name="app_settings_dialog_rationale_ask_again">本应用真心需要一些特别权限来完成任务，请开放这些必须的权限。</string>
+    <string name="app_settings_dialog_title_settings_dialog">权限需求</string>
+    <string name="app_settings_dialog_setting">设置</string>
+    <string name="app_settings_dialog_cancel">离开应用</string>
 </resources>

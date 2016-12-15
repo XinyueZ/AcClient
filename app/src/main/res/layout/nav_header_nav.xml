@@ -30,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end|right|center_vertical"
-        android:background="@color/colorTransparent"
+        android:background="@drawable/selector_item_background"
         android:contentDescription="@string/navi_logout"
         app:srcCompat="@drawable/ic_logout"/>
 
